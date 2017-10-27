@@ -47,6 +47,16 @@
     > CREATE DATABASE moodle;
     > exit
     ```
+5. Ubah konfigurasi pada file ``php.ini`` sehingga sesuai dengan kebutuhan, save, lalu restart web server.
+    ```
+    # nano /etc/php/7.1/apache2/php.ini
+    
+      post_max_size = 32MB
+      upload_max_filesize = 128MB
+      
+    # service apache2 restart
+    ```
+    
 #### Main Package
 1. Masuk ke root directory dari web server. Pada Ubuntu server secara default terletak pada ``/var/www/html/``
     ```
@@ -66,3 +76,8 @@
     # chown www-data:www-data -R /var/www/html/moodle
     # chown www-data:www-data -R /var/www/moodledata
     ```
+
+#### Web Installation
+1. buka alamat dari web server pada aplikasi web browser di komputer client. Dalam kasus ini saya menggunakan alamat ``http://192.168.1.19/moodle`` maka akan tampil halaman awal moodle seperti gambar berikut. Silahkan pilih bahasa untuk aplikasi dan click **Next**
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/moodle1.png">
+2. 
