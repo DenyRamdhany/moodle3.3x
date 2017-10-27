@@ -78,6 +78,12 @@
     ```
 
 #### Web Installation
+0. Untuk versi prototype-view dapat dilihat pada laman <a href=https://marvelapp.com/2ji051g>ini</a>
 1. buka alamat dari web server pada aplikasi web browser di komputer client. Dalam kasus ini saya menggunakan alamat ``http://192.168.1.19/moodle`` maka akan tampil halaman awal moodle seperti gambar berikut. Silahkan pilih bahasa untuk aplikasi dan click **Next**
     <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/moodle1.png">
-2. 
+2. Secara otomatis Moodle akan mendeteksi ``Web Address`` dan ``Moodle DIrectory``. default location dari ``moodledata`` adalah pada ``/var/www/moodledata`` jika tidak dirubah, maka biarkan pengaturan ini dan click **Next**
+3. Pilih database driver yang digunakan oleh server kita lalu click **Next**
+4. Selanjutnya adalah pengaturan untuk koneksi ke database, isi sesuai konfigurasi server yang kita punya lalu click **Next**
+5. Pada tahap ini ditampilkan sekilas lisensi dari Moodle dan konfirmasi (*agreement*) dari pengguna. click **Continue** untuk menuju tahap selanjutnya.
+6. Pada tahap ini Moodle akan mengecek secara otomatis modul dan file yang dibutuhkan oleh Moodle. jika ada yang masih kurang maka instalasi tidak dapat dilanjutkan. Direkomendasikan untuk status semua paket agar menjadi **OK**. Proses instalasi akan memulai ketika Anda menekan tombol **Continue**.
+7. Proses instalasi 
