@@ -87,7 +87,7 @@
 
 3. Pilih database driver yang digunakan oleh server kita lalu click **Next**
 
-4. Selanjutnya adalah pengaturan untuk koneksi ke database, isi sesuai konfigurasi server yang kita punya lalu click **Next**
+4. Selanjutnya adalah pengaturan untuk koneksi ke database, isi sesuai konfigurasi server yang digunakan **Next**
 
 5. Pada tahap ini ditampilkan sekilas lisensi dari Moodle dan konfirmasi (*agreement*) dari pengguna. click **Continue** untuk menuju tahap selanjutnya.
 
@@ -95,3 +95,8 @@
 
 7. Proses instalasi dilakukan secara otomatis oleh Moodle. Pada halaman web kita hanya bisa melihat proses yang sedang berjalan. Instalasi memakan waktu tidak terlalu lama, tergantung pada spesifikasi web server. Ketika sudah selesai akan tampil tombol **Continue**.
 
+8. Setelah proses instalasi selesai, Moodle akan meminta untuk mengisi identitas akun admin utama. Kolom yang wajib diisi adalah **Password**, **Firstname**, **Surname**, dan **Email Address**. Moodle secara default memiliki syarat untuk password yaitu minimal sepanjang 8 karakter dengan kombinasi dari angka, huruf (kecil & kapital), dan simbol. Pilih tombol **Update Profile** ketika sudah selesai mnengisi identitas.
+
+9. Selanjutnya adalah ``Front Page Settings``, admin diminta untuk mengisi nama situs yang akan ditampilkan pada halaman utama. setelah selesai, pilih tombol **Save Changes**.
+
+10. Halaman utama Moodle akan tampil seperti pada gambar berikut
