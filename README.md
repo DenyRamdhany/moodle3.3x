@@ -106,7 +106,7 @@
 ### Uniquelogin
 ``Uniquelogin`` merupakan modul atau plugin yang disediakan oleh Moodle agar setiap user hanya boleh login pada satu komputer dalam satu waktu. Hal ini dimaksudkan untuk mencegah kecurangan siswa saat melaksanakan ujian. Plugin tersebut dapat diunduh langsung <a href="https://moodle.org/plugins/pluginversions.php?plugin=auth_uniquelogin">di sini</a> lalu pilih versi yang sesuai dengan Moodle Anda.
 
-1. Pada panel menu kiri dari Moodle, pilih Site **Administration -> Plugins -> Install Plugins**, makan akan tampil halaman seperti di bawah ini. Unggah plugin (.zip) yang tadi telah diunduh ke halaman tersebut.
+1. Pada panel menu kiri dari Moodle, pilih **Site Administration -> Plugins -> Install Plugins**, makan akan tampil halaman seperti di bawah ini. Unggah plugin (.zip) yang tadi telah diunduh ke halaman tersebut.
      <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/unq1.png">
 
 2. Jika file plugin (.zip) tadi valid, maka instalasi dapat dilanjutkan, click **Continue**
@@ -120,3 +120,6 @@
 
 5. Halaman berikut tampil karena admin baru menambahkan plugin ``uniquelogin``. Jika plugin ini ingin diterapkan juga pada Admin dan Teacher, maka centang opsi tersebut lalu click **Save Changes**.
     <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/unq5.png">
+
+### Disable Guest Login
+Terkadang ada beberapa sekolah/kampus yang tidak mengizinkan akses dari selain civitas akademiknya. Maka dengan itu admin perlu mengatur LMS agar tidak dapat diakses oleh guest. Pengaturan ini dapat ditemukan pada **Site Administration -> Plugins -> Authentication -> Manage Authentication**. 
