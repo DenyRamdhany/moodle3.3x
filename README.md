@@ -106,4 +106,17 @@
 ### Uniquelogin
 ``Uniquelogin`` merupakan modul atau plugin yang disediakan oleh Moodle agar setiap user hanya boleh login pada satu komputer dalam satu waktu. Hal ini dimaksudkan untuk mencegah kecurangan siswa saat melaksanakan ujian. Plugin tersebut dapat diunduh langsung <a href="https://moodle.org/plugins/pluginversions.php?plugin=auth_uniquelogin">di sini</a> lalu pilih versi yang sesuai dengan Moodle Anda.
 
-1. 
+1. Pada panel menu kiri dari Moodle, pilih Site **Administration -> Plugins -> Install Plugins**, makan akan tampil halaman seperti di bawah ini. Unggah plugin (.zip) yang tadi telah diunduh ke halaman tersebut.
+     <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/unq1.png">
+
+2. Jika file plugin (.zip) tadi valid, maka instalasi dapat dilanjutkan, click **Continue**
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/unq2.png">
+ 
+3. Dengan ditambahnya plugin baru, maka database Moodle perlu diupgrade. Proses upgrade dilakukan Moodle secara otomatis dengan menekan tombol **Upgrade Moodle database now**.
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/unq3.png">
+
+4. Proses instalasi selesai ketika tampil halaman seperti gambar dibawah ini. click **Continue**.
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/unq4.png">
+
+5. Halaman berikut tampil karena admin baru menambahkan plugin ``uniquelogin``. Jika plugin ini ingin diterapkan juga pada Admin dan Teacher, maka centang opsi tersebut lalu click **Save Changes**.
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/unq5.png">
