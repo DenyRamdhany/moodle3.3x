@@ -48,7 +48,9 @@
     > exit
     ```
 #### Main Package
-1. Download paket Moodle dari situs <a href=https://download.moodle.org/stable33/moodle-latest-33.tgz>Official Release</a> Moodle (ukuran file sekitar 55MB)
+1. Masuk ke root directory dari web server. Pada Ubuntu server secara default terletak pada ``/var/www/html/``
+2. Download dan ekstrak paket Moodle dari situs <a href=https://download.moodle.org/stable33/moodle-latest-33.tgz>Official Release</a> Moodle (ukuran file sekitar 55MB)
     ```
-    $ wget "https://download.moodle.org/stable33/moodle-latest-33.tgz"
+    # wget "https://download.moodle.org/stable33/moodle-latest-33.tgz"
+    # tar -zxvf moodle-latest-33.tgz
     ```
