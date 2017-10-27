@@ -27,7 +27,7 @@
 
 ### Proses Instalasi:
 #### Prequisite
-1. Masuk ke server melalui koneksi SSH (di sini saya menggunakan Linux sebagai host). user ssh yang saya gunakan adalah **user** dan server berada pada IP **192.168.1.19**.
+1. Masuk ke server melalui koneksi SSH (di sini menggunakan Linux sebagai host). user ssh yang digunakan adalah **user** dan server berada pada IP **192.168.1.19**.
     ```
     $ ssh user@192.168.1.19
     ```
@@ -101,3 +101,9 @@
 
 10. Halaman utama Moodle akan tampil seperti pada gambar berikut
     <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/moodle11.png">
+
+# Konfigurasi
+### Uniquelogin
+``Uniquelogin`` merupakan modul atau plugin yang disediakan oleh Moodle agar setiap user hanya boleh login pada satu komputer dalam satu waktu. Hal ini dimaksudkan untuk mencegah kecurangan siswa saat melaksanakan ujian. Plugin tersebut dapat diunduh langsung <a href="https://moodle.org/plugins/pluginversions.php?plugin=auth_uniquelogin">di sini</a> lalu pilih versi yang sesuai dengan Moodle Anda.
+
+1. 
