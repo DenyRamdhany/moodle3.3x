@@ -49,8 +49,20 @@
     ```
 #### Main Package
 1. Masuk ke root directory dari web server. Pada Ubuntu server secara default terletak pada ``/var/www/html/``
+    ```
+    # cd /var/www/html/
+    ```
 2. Download dan ekstrak paket Moodle dari situs <a href=https://download.moodle.org/stable33/moodle-latest-33.tgz>Official Release</a> Moodle (ukuran file sekitar 55MB)
     ```
     # wget "https://download.moodle.org/stable33/moodle-latest-33.tgz"
     # tar -zxvf moodle-latest-33.tgz
+    ```
+3. Buat direktori untuk menyimpan data dari Moodle dengan nama ``moodledata`` pada lokasi satu tingkat diatas root directory web server. Hal ini direkomendasikan agar direktori ini tidak dapat diakses melalui URL.
+    ```
+    # mkdir /var/www/moodledata
+    ```
+4. ubah status kepemilikan dan group direktori ``moodle`` yang tadi telah diekstrak dan ``moodledata`` yang sebelumnya dibuat, menjadi milik ``www-data``
+    ```
+    # chown www-data:www-data -R /var/www/html/moodle
+    # chown www-data:www-data -R /var/www/moodledata
     ```
