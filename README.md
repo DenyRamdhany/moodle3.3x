@@ -100,3 +100,4 @@
 9. Selanjutnya adalah ``Front Page Settings``, admin diminta untuk mengisi nama situs yang akan ditampilkan pada halaman utama. setelah selesai, pilih tombol **Save Changes**.
 
 10. Halaman utama Moodle akan tampil seperti pada gambar berikut
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/moodle11.png">
