@@ -1,5 +1,5 @@
 # Virtual Learning Environment - Moodle 3.3.2+
-<h1 align="center"><img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures./pic1.png"></h1>
+<h1 align="center"><img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/pic1.png"></h1>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfig) | [Cara Pemakaian](#cara) | [Pembahasan](#bahas) | [Referensi](#dapus)
 :---:|:---:|:---:|:---:|:---:|:---:
