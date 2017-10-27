@@ -125,5 +125,8 @@
 Terkadang ada beberapa sekolah/kampus yang tidak mengizinkan akses dari selain civitas akademiknya. Maka dengan itu admin perlu mengatur LMS agar tidak dapat diakses oleh guest. Pengaturan ini dapat ditemukan pada **Site Administration -> Plugins -> Manage Authentication**. Centang opsi **Autofocus login page** dan pilih **Hide** untuk opsi **Guest login button**. pada opsi **Limit concurrent login** pilih **1** sehingga hanya satu user yang boleh mendapat jatah session pada komputer yang sama. click **Save changes** ketika sudah selesai.
 <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/konf2.png">
 
-Selain menyembunyikan tombol guest login, konfigurasi untuk memaksa agar setiap user yang mengakses LMS harus login terlebih dahulu juga perlu dilakukan. Konfigurasi untuk hal tersebut dapat ditemukan pada **Site Administration -> Security -> Site policies**. Berikan centang pada opsi **Force user to login** lalu simpan konfigurasi.
+Selain menyembunyikan tombol guest login, konfigurasi untuk memaksa agar setiap user yang mengakses LMS harus login terlebih dahulu juga perlu dilakukan. Konfigurasi untuk hal tersebut dapat ditemukan pada **Site Administration -> Security -> Site policies** Berikan centang pada opsi **Force user to login** lalu simpan konfigurasi.
 <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/konf1.png">
+
+Ketika hal di atas sudah dilakukan, maka halaman muka Moodle akan berubah menjadi seperti di bawah ini
+<img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/konf3.png">
