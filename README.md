@@ -27,20 +27,20 @@
 
 ### Proses Instalasi:
 #### Prequisite
-1. Masuk ke server melalui koneksi SSH (di sini saya menggunakan Linux sebagai host). user ssh yang saya gunakan adalah **user** dan server berada pada IP **192.168.1.19**
+1. Masuk ke server melalui koneksi SSH (di sini saya menggunakan Linux sebagai host). user ssh yang saya gunakan adalah **user** dan server berada pada IP **192.168.1.19**.
     ```
     $ ssh user@192.168.1.19
     ```
-2. Tambahkan repository untuk PHP dan pastikan software list pada server sudah diupdate (gunakan user dengan hak **root**)
+2. Tambahkan repository untuk PHP dan pastikan software list pada server sudah diupdate (gunakan user dengan hak **root**).
     ```
     # add-apt-repository ppa:ondrej/php
     # apt update
     ```
-3. Instal paket-paket prasyarat yang dibutuhkan oleh Moodle
+3. Instal paket-paket prasyarat yang dibutuhkan oleh Moodle.
     ```
-    # apt install apache2 php phpmyadmin mysql-server php-mysql libapache2-mod-php php-gd php-curl php-xmlrpc php-intl 
+    # apt install apache2 php phpmyadmin mysql-server php-mysql libapache2-mod-php php-gd php-curl php-xmlrpc php-intl php-soap php-zip 
     ```
-4. Buat database yang nantinya digunakan oleh Moodle
+4. Buat database yang nantinya digunakan oleh Moodle.
     ```
     # mysql -u root -p
     > <masukan password>
@@ -52,7 +52,7 @@
     ```
     # cd /var/www/html/
     ```
-2. Download dan ekstrak paket Moodle dari situs <a href=https://download.moodle.org/stable33/moodle-latest-33.tgz>Official Release</a> Moodle (ukuran file sekitar 55MB)
+2. Download dan ekstrak paket Moodle dari situs <a href=https://download.moodle.org/stable33/moodle-latest-33.tgz>Official Release</a> Moodle (ukuran file sekitar 55MB).
     ```
     # wget "https://download.moodle.org/stable33/moodle-latest-33.tgz"
     # tar -zxvf moodle-latest-33.tgz
@@ -61,7 +61,7 @@
     ```
     # mkdir /var/www/moodledata
     ```
-4. ubah status kepemilikan dan group direktori ``moodle`` yang tadi telah diekstrak dan ``moodledata`` yang sebelumnya dibuat, menjadi milik ``www-data``
+4. ubah status kepemilikan dan group direktori ``moodle`` yang tadi telah diekstrak dan ``moodledata`` yang sebelumnya dibuat, menjadi milik ``www-data`` sehingga web server memiliki akses untuk mengubah konten dari direktori tersebut.
     ```
     # chown www-data:www-data -R /var/www/html/moodle
     # chown www-data:www-data -R /var/www/moodledata
