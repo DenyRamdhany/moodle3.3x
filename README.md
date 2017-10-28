@@ -156,8 +156,8 @@ Ketika hal di atas sudah dilakukan, maka halaman muka Moodle akan berubah menjad
 4. Berikut adalah tampilan halaman course yang telah selesai diedit
     <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/add4.png">
 
-### Membuat Soal
-### Membuat Kuis
+### Membuat Kuis/Ujian
+
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
