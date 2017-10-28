@@ -1,7 +1,7 @@
 # Virtual Learning Environment - Moodle 3.3.2+
 <h1 align="center"><img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/pic1.png"></h1>
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara) | [Pembahasan](#bahas) | [Referensi](#dapus)
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Cara Pemakaian](#cara) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:
 
 # Sekilas Tentang
@@ -103,6 +103,7 @@
     <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/moodle11.png">
 
 # Konfigurasi
+[`^ kembali ke atas ^`](#)
 ### Uniquelogin
 ``Uniquelogin`` merupakan modul atau plugin yang disediakan oleh Moodle agar setiap user hanya boleh login pada satu komputer dalam satu waktu. Hal ini dimaksudkan untuk mencegah kecurangan siswa saat melaksanakan ujian. Plugin tersebut dapat diunduh langsung <a href="https://moodle.org/plugins/pluginversions.php?plugin=auth_uniquelogin">di sini</a> lalu pilih versi yang sesuai dengan Moodle Anda.
 
@@ -125,5 +126,28 @@
 Terkadang ada beberapa sekolah/kampus yang tidak mengizinkan akses dari selain civitas akademiknya. Maka dengan itu admin perlu mengatur LMS agar tidak dapat diakses oleh guest. Pengaturan ini dapat ditemukan pada **Site Administration -> Plugins -> Manage Authentication**. Centang opsi **Autofocus login page** dan pilih **Hide** untuk opsi **Guest login button**. pada opsi **Limit concurrent login** pilih **1** sehingga hanya satu user yang boleh mendapat jatah session pada komputer yang sama. click **Save changes** ketika sudah selesai.
 <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/konf2.png">
 
-Selain menyembunyikan tombol guest login, konfigurasi untuk memaksa agar setiap user yang mengakses LMS harus login terlebih dahulu juga perlu dilakukan. Konfigurasi untuk hal tersebut dapat ditemukan pada **Site Administration -> Security -> Site policies**. Berikan centang pada opsi **Force user to login** lalu simpan konfigurasi.
+Selain menyembunyikan tombol guest login, konfigurasi untuk memaksa agar setiap user yang mengakses LMS harus login terlebih dahulu juga perlu dilakukan. Konfigurasi untuk hal tersebut dapat ditemukan pada **Site Administration -> Security -> Site policies** Berikan centang pada opsi **Force user to login** lalu simpan konfigurasi.
 <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/konf1.png">
+
+Ketika hal di atas sudah dilakukan, maka halaman muka Moodle akan berubah menjadi seperti di bawah ini
+<img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/konf3.png">
+
+
+# Pembahasan
+[`^ kembali ke atas ^`](#)
+### Kelebihan dan Kekurangan
+**Kelebihan**: Selama Moodle dapat diakses melalui Internet (bukan dari jaringan lokal saja), Moodle bermanfaat bila pengguna ingin belajar sesuai waktu, tempat, dan materi yang diinginkan. Dengan begini pengguna memiliki kebebasan tersendiri dalam proses pembelajaran. Di sisi pengajar, materi yang mungkin belum tersampaikan di kelas maupun materi secara keseluruhan dapat disampaikan di platform ini. 
+
+**Kekurangan**: Dengan kemudahan akses, pengguna yang tidak atau kurang disiplin akan kesulitan bila harus belajar sendiri dengan Moodle ini. Selain itu apabila terlalu mengandalkan platform online, pertanyaan dan klarifikasi yang diajukan melalui Moodle akan menjadi kurang jelas dibandingkan dengan pertemuan tatap muka.
+
+### Perbandingan dengan LMS lain
+Kami membandingakan Moodle dengan Blakboard Learn LMS menggunakan fitur *compare* yang dimiliki situs <a href="http://lms.softwareinsider.com/compare/83-226/Blackboard-Learn-LMS-vs-Moodle">SoftwareInsider</a> dan secara umum, Moodle lebih unggul. Berikut adalah ringkasannya:
+<img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/cmp1.png">
+
+
+# Referensi
+[`^ kembali ke atas ^`](#)
+1. [Moodle History](https://docs.moodle.org/33/en/History) - Moodle
+2. [Installing Moodle](https://docs.moodle.org/33/en/Installing_Moodle) - Moodle
+3. [Unique Login](https://moodle.org/plugins/auth_uniquelogin) - Moodle Plugin Directory
+4. [SoftwareInsider](http://lms.softwareinsider.com/compare/83-226/Blackboard-Learn-LMS-vs-Moodle) - SoftwareInsider
