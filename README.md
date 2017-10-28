@@ -143,7 +143,19 @@ Ketika hal di atas sudah dilakukan, maka halaman muka Moodle akan berubah menjad
 
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
-### Membuka Kelas Baru (Mata Pelajaran)
+### Membuka Kelas Baru (Course)
+1. Kelas atau course baru dapat dibuat melalui menu **Site Administration -> Courses -> Manage courses and categories** lalu click **Create new course**, maka akan tampil halaman seperti di bawah ini. Isi detail mata pelajaran yang ingin dibuat lalu click **Save and display**.
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/add1.png">
+
+2. Secara otomatis, setelah membuat *Course* baru, maka Moodle akan menampilkan halaman untuk *Enroll user*. Sementara fitur ini dapat dilewati dengan memilih tombol **Proceed to cource content**.
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/add2.png">
+
+3. Akan tampil sebuah halaman kosong dari course yang baru dibuat. Untuk mengaktifkan fitur editing, dapat dilakukan dengan memilih icon gear pada bagian kanan atas lalu memilih menu **Turn editing on**. Setelah itu, halaman course baru ini bebas dikostumisasi sesuai dengan kebutuhan.
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/add3.png">
+
+4. Berikut adalah tampilan halaman course yang telah selesai diedit
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/add4.png">
+
 ### Membuat Soal
 ### Membuat Kuis
 
