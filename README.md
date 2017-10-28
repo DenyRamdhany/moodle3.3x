@@ -141,6 +141,12 @@ Ketika hal di atas sudah dilakukan, maka halaman muka Moodle akan berubah menjad
 <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/konf3.png">
 
 
+# Cara Pemakaian
+[`^ kembali ke atas ^`](#)
+### Membuka Kelas Baru (Mata Pelajaran)
+### Membuat Soal
+### Membuat Kuis
+
 # Pembahasan
 [`^ kembali ke atas ^`](#)
 ### Kelebihan dan Kekurangan
