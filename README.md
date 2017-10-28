@@ -157,7 +157,32 @@ Ketika hal di atas sudah dilakukan, maka halaman muka Moodle akan berubah menjad
     <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/add4.png">
 
 ### Membuat Kuis/Ujian
+1. Masih dengan pengaturan yang sama seperti pada poin nomor 3 di atas, pada bagian yang ingin ditambahkan activity berupa kuis (pada contoh ini quiz ditambahkan pada bagian "UTS"), click **Add activity or resources** hingga muncul pop-up seperti gambar di bawah. Pilih **quiz** lalu click **Add**.
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/quiz1.png">
 
+2. Isi semua *required field* dan beberapa pengaturan tambahan untuk kuis sesuai dengan kebutuhan. Ketika sudah selesai, click **Save and display**.
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/quiz2.png">
+
+3. Kuis berhasil dibuat namun belum diisi dengan soal. Untuk mengisi soal click **Edit quiz**
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/quiz3.png">
+
+4. Tampil halaman quiz yang terlihat masih kosong, pada sisi kanan terdapat tombol **Add** yang berisikan menu untuk menambah soal. Click **a new qustion** untuk menambahkan soal secara langsung.
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/quiz4.png">
+
+5. Muncul pop-up yang menanyakan tipe soal yang ingin dibuat, pada contoh ini, soal yang dibuat adalah pilihan ganda, maka pilih **Multiple choice** lalu click **Add**
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/quiz5.png">
+    
+6. Halaman berikut merupakan halaman untuk menulis soal baru. Isi semua *required field* dan sesuaikan bentuk soal dengan kebutuhan. Jika sudah selesai, click **Save changes**
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/quiz6.png">
+
+7. Jika soal berhasil dibuat, akan tampil pada halaman quiz seperti pada gambar berikut. Lakukan penambahan soal sesuai dengan jumlah yang dibutuhkan.
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/quiz7.png">
+    
+8. ketika kuis selesai dibuat, maka tampilan pada halaman utama course akan menjadi seperti:
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/quiz8.png">
+
+9. tampilan ketika kuis diakses adalah seperti berikut:
+    <img src="https://github.com/DenyRamdhany/moodle3.3x/blob/master/pictures/quiz9.png">
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
