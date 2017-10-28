@@ -7,7 +7,7 @@
 # Sekilas Tentang
 [`^ kembali ke atas ^`](#)
 
-**Moodle** (*Modular Object Oriented Dynamic Learning Environment*) merupakan sebuah aplikasi CMS (*content management system*) berbasis web untuk keperluan LMS (*Lecture Management System*). Tujuan dari aplikasi ini adalah menciptakan ruang kelas digital sehingga siswa dapat mengaksesnya dari mana saja bahkan ketika jauh dari sekolahnya. Moodle pertama kali dikembangkan oleh Martin Dougiamas pada tahun 1999 dan langsung mematenkan akronim Moodle serta domain <a href=http://moodle.org>Moodle</a>. Hingga tahun 2017 ini Moodle sudah mencapai versi 3.3x dan sudah digunakan di lebih dari 80.000 universitas dan sekolah di 230 negara termasuk Institut Pertanian Bogor.
+**Moodle** (*Modular Object Oriented Dynamic Learning Environment*) merupakan sebuah aplikasi CMS (*content management system*) berbasis web untuk keperluan LMS (*Lecture Management System*). Tujuan dari aplikasi ini adalah menciptakan ruang kelas digital sehingga siswa dapat mengaksesnya dari mana saja bahkan ketika jauh dari sekolahnya. Moodle pertama kali dikembangkan oleh Martin Dougiamas pada tahun 1999 dan langsung mematenkan akronim Moodle serta domain <a href=http://moodle.org>Moodle</a>. Hingga tahun 2017 ini Moodle sudah mencapai versi 3.3x dan telah digunakan di lebih dari 80.000 universitas/sekolah yang tersebar di 230 negara termasuk Institut Pertanian Bogor dari Indonesia.
 
 
 
