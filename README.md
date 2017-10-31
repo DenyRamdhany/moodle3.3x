@@ -189,7 +189,7 @@ Ketika hal di atas sudah dilakukan, maka halaman muka Moodle akan berubah menjad
 ### Kelebihan dan Kekurangan
 **Kelebihan**: Selama Moodle dapat diakses melalui Internet (bukan dari jaringan lokal saja), Moodle bermanfaat bila pengguna ingin belajar sesuai waktu, tempat, dan materi yang diinginkan. Dengan begini pengguna memiliki kebebasan tersendiri dalam proses pembelajaran. Di sisi pengajar, materi yang mungkin belum tersampaikan di kelas maupun materi secara keseluruhan dapat disampaikan di platform ini. 
 
-**Kekurangan**: Dengan kemudahan akses, pengguna yang tidak atau kurang disiplin akan kesulitan bila harus belajar sendiri dengan Moodle ini. Selain itu apabila terlalu mengandalkan platform online, pertanyaan dan klarifikasi yang diajukan melalui Moodle akan menjadi kurang jelas dibandingkan dengan pertemuan tatap muka.
+**Kekurangan**: Dengan kemudahan akses, pengguna yang tidak atau kurang disiplin akan kesulitan bila harus belajar sendiri dengan Moodle ini. Selain itu apabila terlalu mengandalkan platform online, pertanyaan dan klarifikasi yang diajukan melalui Moodle akan menjadi kurang jelas dibandingkan dengan pertemuan tatap muka. Dalam mengelola Moodle diperlukan pemahaman yang lebih dalam mengelola sistem e-learningnya. Karena Moodle dapat diakses oleh banyak orang maka dibutuhkan hardware yang bagus dan juga harus mengeluarkan biaya yang sedikit lebih banyak.
 
 ### Perbandingan dengan LMS lain
 Kami membandingakan Moodle dengan Blakboard Learn LMS menggunakan fitur *compare* yang dimiliki situs <a href="http://lms.softwareinsider.com/compare/83-226/Blackboard-Learn-LMS-vs-Moodle">SoftwareInsider</a> dan secara umum, Moodle lebih unggul. Berikut adalah ringkasannya:
